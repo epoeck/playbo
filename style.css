@@ -1,0 +1,118 @@
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #0a0a0a;
+            color: #00ff41;
+            text-shadow: 0 0 5px #00ff41;
+        }
+        .game-title {
+            font-family: 'Press Start 2P', cursive;
+        }
+        .nes-container {
+            border: 4px solid #00ff41;
+            box-shadow: 0 0 15px #00ff41;
+            background-color: rgba(0, 24, 0, 0.7);
+        }
+        .nes-btn {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #1a1a1a;
+            border: 2px solid #00ff41;
+            color: #00ff41;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px #009927;
+            transform: translateY(0);
+        }
+        .nes-btn:hover {
+            background-color: #00ff41;
+            color: #0a0a0a;
+            text-shadow: none;
+            box-shadow: 0 2px #009927;
+            transform: translateY(2px);
+        }
+        .nes-btn:active {
+            box-shadow: none;
+            transform: translateY(4px);
+        }
+        .nes-btn.is-disabled {
+            background-color: #333;
+            color: #777;
+            box-shadow: none;
+            transform: translateY(4px);
+            cursor: not-allowed;
+        }
+        .progress-bar-container {
+            border: 2px solid #00ff41;
+            height: 30px;
+            padding: 2px;
+        }
+        .progress-bar {
+            background-color: #00ff41;
+            height: 100%;
+            transition: width 0.5s ease-in-out;
+            box-shadow: 0 0 10px #00ff41;
+        }
+        #feedback-panel {
+            border-color: #ff073a;
+            box-shadow: 0 0 15px #ff073a;
+            color: #ff9d9d;
+            text-shadow: 0 0 5px #ff073a;
+        }
+        .modal {
+            display: none; /* Alterado para none por padrão */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.8);
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            width: 90%;
+            max-width: 800px;
+        }
+        .flex-display {
+            display: flex;
+        }
+        /* Efeito de glitch para o título */
+        .glitch {
+            position: relative;
+            font-size: 2.5rem;
+            animation: glitch 1s linear infinite;
+        }
+        @keyframes glitch {
+            2%,64% { transform: translate(2px,0) skew(0deg); }
+            4%,60% { transform: translate(-2px,0) skew(0deg); }
+            62% { transform: translate(0,0) skew(5deg); }
+        }
+        .glitch:before, .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .glitch:before {
+            left: 2px;
+            text-shadow: -2px 0 #ff073a;
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+        .glitch:after {
+            left: -2px;
+            text-shadow: -2px 0 #00fff9, 2px 2px #ff073a;
+            clip: rect(86px, 450px, 140px, 0);
+            animation: glitch-anim-2 1s infinite linear alternate-reverse;
+        }
+        @keyframes glitch-anim { 0% { clip: rect(21px, 9999px, 83px, 0); transform: skew(0.51deg); } }
+        @keyframes glitch-anim-2 { 0% { clip: rect(18px, 9999px, 86px, 0); transform: skew(0.24deg); } }
+
+        /* --- Estilos para Telas Pequenas (Responsividade) --- */
+@media (max-width: 640px) {
+  .glitch {
+    font-size: 1.8rem; /* Diminui o tamanho da fonte do título em telas menores */
+  }
+}

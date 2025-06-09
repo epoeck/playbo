@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>APD: Defesa Cibernética</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:title" content="APD: Defesa Cibernética">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cyber-seg.netlify.app/">
+    <meta property="og:image" content="https://cyber-seg.netlify.app/images/social-preview">
+    <meta property="og:description" content="Enfrente os desafios dos Espectros da Rede e teste seus conhecimentos em segurança da informação. Você consegue defender a infraestrutura?">
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen p-4">
+
+    <!-- Modal de Introdução -->
+    <div id="intro-modal" class="modal flex-display">
+        <div class="modal-content nes-container p-6 text-center">
+            <h2 class="game-title text-2xl mb-4">ALERTA DE INTRUSÃO!</h2>
+            <p class="mb-4">Você é a nova esperança da Agência de Proteção Digital (APD).</p>
+            <p class="mb-6">O grupo hacker "Espectros da Rede" lançou um ataque massivo. Responda aos desafios de segurança para defender nossa infraestrutura. Cada acerto é uma vitória. O futuro digital está em suas mãos.</p>
+            <button id="start-game-btn" class="nes-btn">INICIAR DEFESA</button>
+        </div>
+    </div>
+
+    <!-- Container Principal do Jogo -->
+    <div id="game-container" class="hidden w-full max-w-4xl">
+        <div class="text-center mb-6">
+            <h1 class="game-title glitch" data-text="APD: Defesa Cibernética">APD: Defesa Cibernética</h1>
+        </div>
+        
+        <div class="nes-container mb-6 p-4">
+            <div class="flex justify-between items-center mb-2">
+                <span>PROGRESSO DA DEFESA</span>
+                <span id="progress-text">0/20</span>
+            </div>
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar" style="width: 0%;"></div>
+            </div>
+            <div class="mt-2 text-right">
+                <span>PONTUAÇÃO: <span id="score">0</span></span>
+            </div>
+        </div>
+
+        <div id="question-area" class="nes-container p-6">
+            <h2 id="question-title" class="text-lg md:text-xl mb-4">Carregando desafio...</h2>
+            <p id="question-text" class="mb-6 text-sm md:text-base leading-relaxed"></p>
+            <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+        </div>
+
+        <div id="feedback-panel" class="hidden nes-container mt-6 p-4">
+            <h3 id="feedback-title" class="game-title text-xl mb-2"></h3>
+            <div id="feedback-text" class="text-sm mb-4"></div>
+            <div id="feedback-action-container"></div>
+        </div>
+        
+        <div id="end-game-panel" class="hidden text-center nes-container mt-6 p-6">
+            <img id="rank-image" src="" alt="Ilustração da Patente" class="mx-auto mb-4" style="max-width: 150px;">
+
+            <h2 id="end-game-title" class="game-title text-2xl mb-4"></h2>
+            <p id="end-game-message" class="mb-6 text-lg"></p>
+            <button id="restart-game-btn" class="nes-btn">REINICIAR MISSÃO</button>
+            <button id="review-mistakes-btn" class="nes-btn hidden mt-4">REVER ERROS</button>
+        </div>
+    </div>
+    
+    <!-- Modal de Revisão -->
+<div id="review-modal" class="modal">
+    <div class="modal-content nes-container p-6">
+        <h2 class="game-title text-xl mb-4">ANÁLISE PÓS-AÇÃO (<span id="review-counter"></span>)</h2>
+        
+        <div class="nes-container with-title mb-4 bg-black/50">
+            <p class="title text-sm">AMEAÇA</p>
+            <p id="review-question" class="text-sm leading-relaxed"></p>
+        </div>
+
+        <div id="review-user-answer-container" class="nes-container with-title is-error mb-4">
+            <p class="title text-sm">SUA RESPOSTA (INCORRETA)</p>
+            <p id="review-user-answer" class="text-sm leading-relaxed"></p>
+        </div>
+
+        <div id="review-correct-answer-container" class="nes-container with-title is-success mb-4">
+            <p class="title text-sm">RESPOSTA CORRETA</p>
+            <p id="review-correct-answer" class="text-sm leading-relaxed"></p>
+        </div>
+        
+        <div class="nes-container with-title is-dark">
+            <p class="title text-sm">ANÁLISE DA AMEAÇA</p>
+            <p id="review-comment" class="text-sm leading-relaxed"></p>
+        </div>
+        
+        <div class="flex justify-between mt-6">
+            <button id="prev-review-btn" class="nes-btn">Anterior</button>
+            <button id="close-review-btn" class="nes-btn">Fechar</button>
+            <button id="next-review-btn" class="nes-btn">Próxima</button>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

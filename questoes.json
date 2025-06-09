@@ -1,0 +1,1049 @@
+[
+  {
+    "id": 1,
+    "question": "A segurança da informação é o conjunto de medidas e práticas adotadas para proteger os dados contra acessos não autorizados, uso indevido, modificações não autorizadas, roubo ou danos. Sobre Segurança da Informação, Pragas Virtuais e tecnologias relacionadas é correto afirmar que:",
+    "options": {
+      "a": "um firewall atua como uma barreira entre redes confiáveis e não confiáveis, controlando o tráfego de rede com base em regras predefinidas, portanto o firewall desempenha um papel fundamental na proteção da integridade dos dados, que é um dos princípios essenciais da segurança da informação",
+      "b": "Worms podem causar danos significativos ao congestionar redes, consumir largura de banda e comprometer sistemas. Para proteger uma rede contra um ataque de Worms, o mecanismo de segurança mais adequado seria o proxy",
+      "c": "embora o proxy e a VPN possam fornecer camadas adicionais de segurança, como criptografia de tráfego e filtragem de conteúdo, eles não são especificamente projetados para detectar e prevenir a propagação de vírus na rede",
+      "d": "um firewall é suficiente para proteger contra todas as ameaças cibernéticas. Outras medidas de segurança, como antivírus e detecção de intrusão não são necessárias para uma proteção abrangente",
+      "e": "um proxy atua como intermediário entre um cliente e um servidor, permitindo que o cliente acesse recursos na Internet sem revelar seu endereço IP real. Usar apenas um proxy é suficiente para garantir total anonimato online"
+    },
+    "correctAnswer": "c",
+    "comment": "a) Errada. Firewall não garante a integridade dos dados, pois não é capaz de impedir que uma informação seja alterada.<br>b) Errada. O mecanismo mais adequado é o antivírus.<br>c) Certa. Exatamente isso. O mecanismo projetado para evitar vírus é o antivírus.<br>d) Errada. Firewall sozinho não é suficiente para proteger contra todas as ameaças. O ideal é ter todo um conjunto de ferramentas como: Antivírus, Firewall, Proxy, políticas de backup etc.<br>e) Errada. Quem iria garantir acesso à internet sem revelar seu Ip seria uma VPN; e o Proxy não é suficiente para isso."
+  },
+  {
+    "id": 2,
+    "question": "Assinale, das alternativas abaixo, a única que identifica corretamente a definição básica e conceitual de um firewall.",
+    "options": {
+      "a": "é um poderoso recurso para proteger uma rede de antivírus",
+      "b": "recurso que permite criptografar tanto uma rede PAN como LAN",
+      "c": "é um dispositivo de hardware que converte sinais analógicos em digitais",
+      "d": "é a primeira linha de defesa tanto em uma rede pessoal como corporativa",
+      "e": "transforma uma rede geral do tipo WAN em uma rede tipicamente PAN"
+    },
+    "correctAnswer": "d",
+    "comment": "Firewall – o firewall pode ser um filtro, sistema, dispositivo, hardware/software, mecanismo que filtra a entrada e a saída de pacotes (TCP/UDP) na rede e tentativas de invasão. Age por meio de regras específicas que irão filtrar o tráfego da rede para impedir o que não é autorizado a entrar e/ou a sair de uma rede interna para a rede externa (internet)."
+  },
+  {
+    "id": 3,
+    "question": "Quanto à nomenclatura de um malware, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).<br>(  ) worm<br>(  ) fandom<br>(  ) spyware<br>(  ) trojan<br>Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
+    "options": {
+      "a": "V, V, V, V",
+      "b": "V, F, V, V",
+      "c": "F, F, V, V",
+      "d": "V, V, V, F"
+    },
+    "correctAnswer": "b",
+    "comment": "(V) worm  Worm é um programa capaz de se propagar automaticamente pelas redes, enviando cópias de si mesmo de computador para computador.<br>(F) fandom  Malware inexistente.<br>(V) spyware  Spyware é um programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros.<br>(V) trojan  Programa que, além de executar as funções para as quais foi aparentemente projetado, também executa outras funções, normalmente maliciosas e sem o conhecimento do usuário."
+  },
+  {
+    "id": 4,
+    "question": "Sobre noções básicas de informática, assinale a alternativa que preencha correta e respectivamente as lacunas.<br>“________ é um conjunto de programas que permite o funcionamento e utilização da máquina. O ________ é um programa que possibilita o acesso à internet. Um cavalo de Troia é um ________ que entra no computador e cria uma porta para uma possível invasão. Um ________ é um dispositivo de uma rede de computadores que tem por objetivo aplicar uma política de segurança a um determinado ponto da rede.”",
+    "options": {
+      "a": "Navegador / software / firewall / malware",
+      "b": "Malware / navegador / software / firewall",
+      "c": "Software / malware / firewall / navegador",
+      "d": "Navegador / malware / firewall / software",
+      "e": "Software / navegador / malware / firewall"
+    },
+    "correctAnswer": "e",
+    "comment": "“<b>SOFTWARE</b> é um conjunto de programas que permite o funcionamento e utilização da máquina. O <b>NAVEGADOR</b> é um programa que possibilita o acesso à internet. Um cavalo de Troia é um <b>MALWARE</b> que entra no computador e cria uma porta para uma possível invasão. Um <b>FIREWALL</b> é um dispositivo de uma rede de computadores que tem por objetivo aplicar uma política de segurança a um determinado ponto da rede.”"
+  },
+  {
+    "id": 5,
+    "question": "Assinale a alternativa que apresenta a principal função do programa de antivírus geralmente utilizado em um computador.",
+    "options": {
+      "a": "Permitir que hackers acessem o sistema",
+      "b": "Proteger contra vírus e malwares",
+      "c": "Acelerar a velocidade da internet",
+      "d": "Criar apresentações de slides"
+    },
+    "correctAnswer": "b",
+    "comment": "Questão extremamente simples, feita até mesmo por eliminação."
+  },
+  {
+    "id": 6,
+    "question": "O objetivo específico de um software anti-spyware é:",
+    "options": {
+      "a": "editar imagens",
+      "b": "proteger contra ataques de phishing",
+      "c": "bloquear vírus de computador",
+      "d": "remover software malicioso que coleta informações sem consentimento",
+      "e": "fornecer serviços de armazenamento em nuvem"
+    },
+    "correctAnswer": "d",
+    "comment": "A maioria dos antivírus possui capacidade de remoção de SPYWARE (programa espião); porém, existem os programas específicos para tal finalidade, como o abordado nesta questão."
+  },
+  {
+    "id": 7,
+    "question": "No contexto da computação, Vírus e worms são:",
+    "options": {
+      "a": "ferramentas de busca na internet",
+      "b": "tipos de sistema operacional",
+      "c": "softwares de edição de vídeo",
+      "d": "tipos de proteção contra incêndio",
+      "e": "tipos de software malicioso"
+    },
+    "correctAnswer": "e",
+    "comment": "MALWARE = SOFTWARE MALICIOSO"
+  },
+  {
+    "id": 8,
+    "question": "Assinale a alternativa que define o que é phishing.",
+    "options": {
+      "a": "Um tipo de vírus de computador",
+      "b": "Uma rede social",
+      "c": "Uma técnica de ataque cibernético que visa enganar os usuários para obter informações pessoais",
+      "d": "Um sistema de busca na internet",
+      "e": "Um aplicativo de edição de fotos"
+    },
+    "correctAnswer": "c",
+    "comment": "O famoso golpe de engenharia social moderno. Por meio de páginas ou de e-mails falsos, golpistas tentam “fisgar” os dados pessoais e bancários das vítimas."
+  },
+  {
+    "id": 9,
+    "question": "Leia atentamente a frase abaixo: “A principal missão do ______ consiste basicamente em bloquear tráfego de dados indesejado e liberar acessos bem-vindos.” Assinale a alternativa que preencha corretamente a lacuna.",
+    "options": {
+      "a": "Firewall",
+      "b": "Browser",
+      "c": "Antivírus",
+      "d": "Sistema Operacional",
+      "e": "Movie Maker"
+    },
+    "correctAnswer": "a",
+    "comment": "Filtro, bloqueio, tráfego, regras de pacotes e IPs são algumas das palavras-chave encontradas em questões de FIREWALL."
+  },
+  {
+    "id": 10,
+    "question": "Leia a frase abaixo referente a dispositivos para armazenamento de dados, cópia de segurança e procedimentos de backup.<br>“Um tipo de cópia de segurança é ______, que copia todos os dados selecionados na primeira vez e depois só copia os dados que foram alterados desde a última cópia. Esse tipo de cópia economiza espaço e tempo, mas requer mais cuidado na hora de restaurar os dados”.<br>Assinale a alternativa que preencha corretamente a lacuna.",
+    "options": {
+      "a": "o diferencial",
+      "b": "o dinâmico",
+      "c": "a incremental",
+      "d": "o estático"
+    },
+    "correctAnswer": "c",
+    "comment": "Backup que ocupa pouco espaço, rápida a sua realização, marca os arquivos que passaram pela cópia e é realizado após a última cópia."
+  },
+  {
+    "id": 11,
+    "question": "A assinatura digital é um controle de segurança que permite a verificação da integridade e da autenticidade do documento digital. Sabe-se que o certificado digital do signatário (CertSignatário) foi emitido pela Autoridade Certificadora 1 (AC1); o certificado da AC1 (CertAC1) foi emitido pela Autoridade Certificadora Raiz (ACZ); e que o certificado da ACZ (CertACZ) é autoassinado. Para validarmos a assinatura digital do signatário de um documento digital, nessa infraestrutura de chaves públicas em cadeia, é necessário ter-se:",
+    "options": {
+      "a": "apenas o CertSignatário",
+      "b": "apenas o CertAC1",
+      "c": "apenas o CertACZ",
+      "d": "apenas o CertSignatário e o CertACZ",
+      "e": "todos os certificados da cadeia (CertSignatário, CertAC1 e CertACZ)"
+    },
+    "correctAnswer": "e",
+    "comment": "Poderíamos usar o raciocínio do esquema visto em aula: A cadeia de certificação ICP BRASIL envolve todas as autoridades citadas no enunciado. Existe uma hierarquia entre os componentes da ICP-Brasil. Esses componentes são a AC Raiz (Autoridade Certificadora Raiz), as ACs (Autoridades Certificadoras) de primeiro nível e de segundo nível, as ARs (Autoridades de Registros), e, finalmente, o usuário final."
+  },
+  {
+    "id": 12,
+    "question": "Os bancos investem em recursos de segurança para minimizar os riscos de fraude nas operações bancárias através de Internet Banking. Os usuários, porém, precisam estar atentos aos golpistas que procuram persuadir vítimas em potencial a acessar sites falsos e a fornecer informações sensíveis. Esse ataque é conhecido como:",
+    "options": {
+      "a": "botnet",
+      "b": "injection",
+      "c": "spyware",
+      "d": "phishing",
+      "e": "Ransomware"
+    },
+    "correctAnswer": "d",
+    "comment": "Phishing, phishing-scam ou phishing/scam é o tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário, pela utilização combinada de meios técnicos e engenharia social. a) Errada. Botnet  rede de bots (vários computadores infectados por bots), denominamos Botnet. b) Errada. Injection  O SQL Injection é uma técnica de ataque baseada na manipulação do código SQL, que é a linguagem utilizada para troca de informações entre aplicativos e bancos de dados. c) Errada. Spyware  programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros. e) Errada. Ransomware  tipo de código malicioso que torna inacessíveis os dados armazenados em um equipamento, geralmente usando criptografia, e que exige pagamento de resgate (ransom) para restabelecer o acesso ao usuário. O pagamento do resgate geralmente é feito via bitcoins."
+  },
+  {
+    "id": 13,
+    "question": "A segurança da informação deve fazer parte da postura dos colaboradores da empresa no dia a dia de trabalho. Com o objetivo de garantir a autoria dos seus documentos digitais, o colaborador deve executar o processo de assinatura digital para cada documento criado. A assinatura digital é criada pelo signatário do documento com o uso da sua chave:",
+    "options": {
+      "a": "pública",
+      "b": "privada",
+      "c": "simétrica",
+      "d": "compartilhada",
+      "e": "Certificada"
+    },
+    "correctAnswer": "b",
+    "comment": "Vamos relembrar? O remetente assina com a sua chave privada e envia o documento. O destinatário recebe e confere com a chave pública do remetente. Durante o processo, é usada, na assinatura digital, a famosa função Hash. Ela funcionará, em meios digitais, como uma impressão digital, gerando um número de tamanho fixo, chamado de valor hash ou digest. Para que seja gerado, o algoritmo da função de hash analisa um conteúdo e, a partir dele, cria um registro verificador. Consequentemente, se a informação for alterada por terceiros, será possível rastrear a alteração facilmente. Obs.: um documento assinado digitalmente pode ser perfeitamente lido, não gerando a CONFIDENCIALIDADE."
+  },
+  {
+    "id": 14,
+    "question": "Um funcionário de um determinado banco, ao ser designado para trabalhar no data center da instituição, identificou problemas de segurança. Por essa razão, formulou duas propostas de melhoria: instalar um controle de acesso biométrico nas portas do data center, que estavam sempre abertas, e exigir que as senhas do servidor principal, que nunca expiravam, fossem trocadas a cada 30 dias. Pelo tipo de controle que implementam, as melhorias propostas pelo funcionário são classificadas, respectivamente, como:",
+    "options": {
+      "a": "física e processual",
+      "b": "física e tecnológica",
+      "c": "processual e física",
+      "d": "processual e tecnológica",
+      "e": "tecnológica e processual"
+    },
+    "correctAnswer": "a",
+    "comment": "A questão tem uma “pequena” pegadinha! Vamos separar os trechos do texto que precisamos para acertá-la: “instalar um controle de acesso biométrico nas portas do data center, que estavam sempre abertas,...”  O controle biométrico será um equipamento que será instalado nas PORTAS que ficam abertas = SEGURANÇA FÍSICA. “e exigir que as senhas do servidor principal, que nunca expiravam fossem trocadas a cada 30 dias....”  Senhas = SEGURANÇA LÓGICA. Porém, quando a banca pede o processo de troca senha mensal, ela entende ser uma classificação PROCESSUAL."
+  },
+  {
+    "id": 15,
+    "question": "A Segurança da Informação é uma preocupação permanente dos agentes comerciais, principalmente em relação a assuntos contratuais e financeiros e às facilidades advindas dos meios digitais. Os recursos providos pelas áreas de TI das empresas, no que se refere à segurança da informação, incluem a irretratabilidade, que deve garantir a:",
+    "options": {
+      "a": "manutenção exata e completa do conteúdo das mensagens desde a origem até o destino.",
+      "b": "impossibilidade de negar a autoria de uma mensagem.",
+      "c": "possibilidade do acesso a qualquer mensagem quando necessário.",
+      "d": "impossibilidade de os conteúdos das mensagens serem lidos e compreendidos por pessoas não autorizadas.",
+      "e": "impossibilidade de o destinatário negar o recebimento de uma mensagem."
+    },
+    "correctAnswer": "b",
+    "comment": "Vamos relembrar!?<br><b>Princípios da Segurança da Informação</b><br><b>Confidencialidade:</b> é a garantia de que os dados serão acessados apenas por usuários autorizados. Geralmente, restringe o acesso.<br><b>Integridade:</b> é a garantia de que a mensagem não foi alterada durante a transmissão, ou seja, é a garantia da exatidão e da completeza da informação.<br><b>Disponibilidade:</b> é a garantia de que um sistema estará disponível a qualquer momento para solicitações.<br><b>Autenticidade:</b> é a garantia de que os dados fornecidos são verdadeiros ou de que o usuário é o usuário legítimo.<br><b>Conformidade (legalidade):</b> a segurança da informação também deve assegurar que seus processos obedeçam às leis e normas.<br>A junção de todos esses princípios gera a confiabilidade do sistema.<br>Alguns autores citam um 6º (sexto) princípio:<br><b>Não repúdio (irretratabilidade):</b> é a garantia de que uma pessoa não consiga negar um ato ou documento de sua autoria. Essa garantia é condição necessária para a validade jurídica de documentos e transações digitais. Só se pode garantir o não repúdio quando houver autenticidade e integridade (ou seja, quando for possível determinar quem mandou a mensagem e garantir que ela não foi alterada)."
+  },
+  {
+    "id": 16,
+    "question": "Devido à pandemia, muitos funcionários de um determinado banco precisaram trabalhar de casa. Percebendo que seria necessário um novo procedimento de acesso remoto que atendesse às necessidades de segurança, o setor de TI desse banco determinou o uso de um mecanismo seguro que conectasse, via internet pública, o computador do funcionário, em sua casa, com a rede privada da instituição financeira, bloqueando o acesso de terceiros ao trânsito de informações. Para garantir a segurança dessa conexão, essa instituição deve adotar a tecnologia de rede conhecida como:",
+    "options": {
+      "a": "HTTP",
+      "b": "PGP",
+      "c": "VPN",
+      "d": "WEK",
+      "e": "WPA2"
+    },
+    "correctAnswer": "c",
+    "comment": "VPN (rede privada virtual) é um tunelamento para transmissão de informações de maneira segura, usando criptografia.<br>a) Errada. HTTP  HyperText Transfer Protocol, que, em português, quer dizer Protocolo de Transferência de Hipertexto. Esse protocolo é o conjunto de regras que permite a transferência de informações na web, ou seja, o protocolo que permite a transferência das páginas/sites/hipertextos que acessamos na www. Porta (80).<br>b) Errada. PGP  Pretty Good Privacy (PGP), privacidade muito boa, é um software de criptografia que fornece autenticação e privacidade criptográfica para comunicação de dados. É frequentemente utilizado para assinar, encriptar e descriptografar textos, e-mails, arquivos, diretórios e partições inteiras de disco e para incrementar a segurança de comunicações via e-mail.<br>d) Errada. WEK  --//--<br>e) Errada. WPA2  Algoritmo para a geração de senhas em roteadores WI-FI. WPA2, evolução da WPA, atualmente é a mais usada, embora já tenha sido lançado o padrão WPA3."
+  },
+  {
+    "id": 17,
+    "question": "Existem soluções de hardware e software que buscam minimizar as chances de um ataque a sistemas computacionais ser bem-sucedido. Dentre tais soluções de segurança, há uma que monitora o tráfego de entrada e saída de rede, funcionando como um filtro de pacotes, permitindo ou não a sua liberação a partir de um conjunto de regras específicas. Essa solução é o:",
+    "options": {
+      "a": "Antimalware",
+      "b": "Dispositivo USB",
+      "c": "Firewall",
+      "d": "Phishing",
+      "e": "SQL injection"
+    },
+    "correctAnswer": "c",
+    "comment": "Aluno(a), irei destacar as palavras infalíveis para tratarem de Firewall. Existem soluções de hardware e software que buscam minimizar as chances de um ataque a sistemas computacionais ser bem-sucedido. Dentre tais soluções de segurança, há uma que <b>monitora o tráfego de entrada e saída de rede</b>, funcionando como um <b>filtro de pacotes</b>, permitindo ou não a sua liberação a partir de um <b>conjunto de regras específicas</b>."
+  },
+  {
+    "id": 18,
+    "question": "A denominação Phishing é utilizada para:",
+    "options": {
+      "a": "Mensagem não solicitada que se passa por comunicação de uma instituição conhecida, como um banco, empresa ou site popular, e que procura induzir usuários ao fornecimento de dados pessoais e financeiros.",
+      "b": "Termo usado para se referir aos e-mails não solicitados, que geralmente são enviados para um grande número de pessoas.",
+      "c": "Programa ou parte de um programa de computador, normalmente malicioso, que se propaga infectando, isto é, inserindo cópias de si mesmo e se tornando parte de outros programas e arquivos de um computador.",
+      "d": "Falha no projeto, implementação ou configuração de um software ou sistema operacional que, quando explorada por um atacante, resulta na violação da segurança de um computador.",
+      "e": "Programa capaz de se propagar automaticamente através de redes, enviando cópias de si mesmo de computador para computador."
+    },
+    "correctAnswer": "a",
+    "comment": "a) Certa. Observe sempre que o objetivo é induzir o usuário a fornecer seus dados pessoais, utilizando técnicas de engenharia social, persuasão.<br>b) Errada. Conceito de SPAM.<br>c) Errada. Conceito de vírus.<br>d) Errada. Conceito de vulnerabilidade.<br>e) Errada. Conceito de WORM."
+  },
+  {
+    "id": 19,
+    "question": "A proteção aos recursos computacionais inclui desde aplicativos e arquivos de dados até utilitários e o próprio sistema operacional. Considere as seguintes afirmações.<br>I – Bases de dados, arquivos ou transações de bancos de dados devem ser protegidas para evitar que os dados sejam apagados ou alterados sem autorização.<br>II – A falta de proteção adequada aos arquivos que armazenam as senhas não compromete a segurança do sistema.<br>III – Os arquivos de log são usados para registrar ações dos usuários, constituindo-se em ótimas fontes de informação para auditorias futuras.",
+    "options": {
+      "a": "Apenas I.",
+      "b": "Apenas II.",
+      "c": "Apenas I e III.",
+      "d": "Apenas II e III.",
+      "e": "I, II e III."
+    },
+    "correctAnswer": "c",
+    "comment": "I – Certo Imagina se os dados de uma grande empresa ou banco forem apagados ou alterados? Eles simplesmente quebram.<br>II – Errado. Obviamente que existirá um comprometimento, se um dos princípios básicos das senhas é serem guardadas em locais seguros e de posse apenas do seu proprietário.<br>III – Certo. LOG = Relatórios do sistema. Uma boa política de segurança e manter um servidor dedicado ao armazenamento de todos os logs do sistema. Ou seja, todos os acessos ao sistema são devidamente registrados."
+  },
+  {
+    "id": 20,
+    "question": "Nos dias atuais, um ataque chamado “ransomware” tem feito muitas vítimas. Esse ataque consiste no sequestro de informações que são recuperadas apenas mediante pagamento de um resgate. Métodos criptográficos são utilizados nesse processo, no qual o cracker envia a chave para a recuperação das informações após o pagamento do valor estipulado. Uma forma de evitar esse tipo de transtorno é:",
+    "options": {
+      "a": "não acessar a internet.",
+      "b": "não abrir nenhum tipo de e-mail.",
+      "c": "fazer backups dos dados diariamente, bem como testes semanais de restauração dos dados.",
+      "d": "fazer uso de Firewalls do Windows apenas, sem se preocupar com e-mails maliciosos.",
+      "e": "fazer uso de um antivírus apenas, sem a necessidade de preocupar-se com e-mails maliciosos."
+    },
+    "correctAnswer": "c",
+    "comment": "a) Errada. Como viveremos sem Internet? Não precisamos tomar medidas tão pesadas assim para evitar ataques de malwares.<br>b) Errada. Mesma linha de raciocínio do item anterior.<br>c) Certa. Isso é um consenso entre os examinadores. Fazer backups regularmente é a solução para a recuperação de dados atacados por Ransomware. Efetuar pagamento do resgate ou usar programas de força bruta não são considerados métodos eficazes.<br>d) Errada. O Firewall sozinho não será capaz de resolver muita coisa em um sistema de segurança.<br>e) Errada. Mesmo raciocínio do item anterior. Para termos um sistema seguro, precisamos de todo um conjunto de ferramentas de segurança além dos devidos cuidados de usuários e colaboradores."
+  },
+  {
+    "id": 21,
+    "question": "Sobre as noções de segurança da informação, assinale a alternativa correta.",
+    "options": {
+      "a": "Além da tríade básica da Segurança da Informação (CID), podemos elencar também os princípios da autenticidade (propriedade em que, uma vez a mensagem assinada digitalmente por um emissor, ele não poderá negar sua autenticidade) e o não-repúdio (propriedade que permite confirmar a veracidade da informação prestada).",
+      "b": "Além da tríade básica da Segurança da Informação (CID), podemos elencar também os princípios da autenticidade (propriedade que permite confirmar a veracidade da informação prestada) e o não-repúdio (propriedade em que, uma vez a mensagem assinada digitalmente por um emissor, ele não poderá negar sua autenticidade).",
+      "c": "Além da tríade básica da Segurança da Informação (CID), não constam na Norma ISO 27001 os princípios da autenticidade e o não-repúdio.",
+      "d": "Além da tríade básica da Segurança da Informação (CID), não constam na Norma ISO 27001 os princípios da auditoria e privacidade.",
+      "e": "Além da tríade básica da Segurança da Informação (CID), não fazem parte da Norma ISO 27001 os princípios da auditoria, legalidade e privacidade."
+    },
+    "correctAnswer": "b",
+    "comment": "Observe que as alternativas ”c”, “d” e “e” estão afirmando que os princípios não fazem parte da Norma ISSO 27001. Com isso, já podemos eliminá-las. A letra “a” inverteu os princípios da AUTENTICIDADE com o NÃO REPÚDIO."
+  },
+  {
+    "id": 22,
+    "question": "A prevenção, detecção e a eliminação de vírus são feitos por aplicativos denominados antivírus. É um exemplo de antivírus:",
+    "options": {
+      "a": "AVG.",
+      "b": "FTP.",
+      "c": "Keylogger.",
+      "d": "Spam.",
+      "e": "Malware."
+    },
+    "correctAnswer": "a",
+    "comment": "a) Certa. AVG AntiVirus, AVG (Anti-Virus Guard) é um software antivírus para as plataformas de computadores Microsoft Windows, Linux, Mac OS, Android e iOS, desenvolvida pela AVG Technologies, uma empresa fundada na República Checa, anteriormente conhecida como Grisoft.<br>b) Errada. Protocolo para a transferência da arquivos.<br>c) Errada. Capaz de capturar e armazenar as teclas digitadas pelo usuário no teclado do computador. Sua ativação, em muitos casos, é condicionada a uma ação prévia do usuário, como o acesso a um site específico de comércio eletrônico ou de Internet Banking.<br>d) Errada. É o termo usado para se referir aos e-mails não solicitados, que geralmente são enviados para um grande número de pessoas. Quando este tipo de mensagem possui conteúdo exclusivamente comercial, também é referenciado como UCE (Unsolicited Commercial E-mail).<br>e) Errada. Aplicativo malicioso ou malware (malicious software) é um termo genérico que abrange todos os tipos de programa especificamente desenvolvidos para executar ações maliciosas em um computador."
+  },
+  {
+    "id": 23,
+    "question": "Uma solução de segurança adotada para proteger uma rede de tentativas de acessos externos indevidos, que pode funcionar via hardware ou software específicos para essa finalidade, é chamada de:",
+    "options": {
+      "a": "anti-spyware.",
+      "b": "criptografia.",
+      "c": "antivírus.",
+      "d": "firewall."
+    },
+    "correctAnswer": "d",
+    "comment": "Perceba as palavras-chave:<br>“Uma solução de segurança adotada para <b>proteger uma rede</b> de tentativas de <b>acessos externos indevidos</b>, que pode funcionar via <b>hardware ou software</b> específicos para essa finalidade, é chamada de:”"
+  },
+  {
+    "id": 24,
+    "question": "Um usuário que tenha instalado em seu computador um antivírus e um antispyware pode substituí-los por um firewall pessoal sem prejuízo à sua segurança, porque esse aplicativo possui recursos que tanto eliminam vírus quanto bloqueiam adware.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "De acordo com o que estudamos em nossa aula, uma ferramenta não irá substituir a outra.<br>ANTIVÍRUS ≠ FIREWALL"
+  },
+  {
+    "id": 25,
+    "question": "<b>Considerando essa situação hipotética e assuntos a ela relacionados, julgue o item a seguir.</b><br><i>Paulo, servidor de determinado órgão público, recebeu a seguinte mensagem em seu email corporativo.<br>Assunto: Seu dispositivo está infectado e hackeado.<br>Oi! Eu tenho más notícias para você. Há alguns meses tive acesso aos dispositivos que você usa para navegar na Web. Instalei um cavalo de Troia nos sistemas operacionais de todos os dispositivos que você usa para acessar seu email (celular, computador e tablet). Eu bloqueei o acesso aos seus sistemas por meio de criptografia de todas as suas informações, tais como imposto de renda, fotos e arquivos de trabalho...</i><br><br>Infere-se do email apresentado, especialmente do trecho “Eu bloqueei o acesso aos seus sistemas por meio de criptografia de todas as suas informações...”, que se trata de um ataque por trojan, o qual é um programa que, além de executar as funções para as quais foi aparentemente projetado, torna inacessíveis os dados armazenados, sem o conhecimento do usuário.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Item que induz o candidato ao erro, pois realmente o computador foi infectado por um TROJAN (cavalo de troia), porém quem foi responsável por criptografar os dados foi o RANSOMWARE, que possivelmente estava contido no TROJAN."
+  },
+  {
+    "id": 26,
+    "question": "<b>Considerando essa situação hipotética e assuntos a ela relacionados, julgue o item a seguir.</b><br><i>Paulo, servidor de determinado órgão público, recebeu a seguinte mensagem em seu email corporativo...</i><br><br>Admitindo-se que a infecção por cavalo de Troia realmente tenha ocorrido, é correto afirmar que tal infecção pode ter acontecido por meio de um spear phishing, o que teria sido evitado se na máquina do usuário tivesse um antispyware instalado.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "“Spear phishing é um golpe proveniente de e-mail ou comunicação eletrônica, direcionado a um indivíduo, organização ou empresa específicos... os criminosos virtuais também podem tentar instalar malwares no computador do usuário.” Fonte: www.kaspersky.com.br<br>Um antispyware seria incapaz de evitar um golpe de phishing. O usuário que tem que saber filtrar os links de e-mails de phishing que ele clica e executa."
+  },
+  {
+    "id": 27,
+    "question": "Um firewall com portas abertas é um risco que pode ser explorado por um invasor para tirar vantagem de uma vulnerabilidade, o que gera impacto nos negócios.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "O invasor consegue adentrar a nossa rede justamente através de portas desprotegidas."
+  },
+  {
+    "id": 28,
+    "question": "Com relação às cópias de segurança, as mídias utilizadas não precisam ser periodicamente testadas, pois são usadas somente em caso de falha.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Imagine você, aluno, realizando rigorosamente os backups do seu sistema. Um belo dia, descobre que houve danos no sistema e precisa restaurar o backup, porém os dados do backup estavam corrompidos. Se tivesse testado logo após a realização da cópia, possivelmente ficaria livre desse problema, concorda?"
+  },
+  {
+    "id": 29,
+    "question": "O valor da informação é uma função do contexto da organização, da finalidade de utilização, do processo decisório e dos resultados das decisões.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Sobre o valor da informação:<br><b>valor de restrição</b>  irá surgir no caso de informação confidencial ou de interesse comercial, quando seu uso fica restrito apenas aos interessados;<br><b>valor de uso</b>  Como será feita a utilização final da informação;<br><b>valor de troca</b>  as pessoas estão preparadas para pagar e pode variar de acordo com as leis de oferta e demanda ou valor de mercado;<br><b>valor de propriedade</b>  irá refletir o custo substitutivo de um bem."
+  },
+  {
+    "id": 30,
+    "question": "Vírus é um pequeno programa de computador que propositalmente se replica e não depende de um usuário para se espalhar, uma vez que, quando ativado, se espalha automaticamente.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Temos aqui características de um Worm."
+  },
+  {
+    "id": 31,
+    "question": "Firewall de proxy é um aplicativo de segurança que monitora e controla o tráfico de dados de uma rede interna para a rede externa e impede o ataque externo.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Firewall de Proxy ou Firewall de aplicação. Esse tipo de firewall monitora a conexão entre dois dispositivos do início ao fim e, além das regras baseadas no endereço IP previamente configuradas, leva em conta a origem da interação entre eles. Ou seja, uma vez que um dispositivo interno inicia a conexão solicitando alguma informação de um servidor externo, o firewall rastreia a conexão e aguarda por uma resposta daquele servidor específico destinado ao dispositivo que iniciou a conexão e a uma porta específica. Uma vez que essas informações estão corretas, a entrada do pacote é autorizada, mesmo que não haja uma regra específica autorizando aquele endereço IP."
+  },
+  {
+    "id": 32,
+    "question": "Para que as pragas virtuais denominadas worms ataquem o computador em uso, é necessário que se execute um arquivo do tipo.bat.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "O worm, de fato, é um arquivo executável, mas não é necessário executar um arquivo bat."
+  },
+  {
+    "id": 33,
+    "question": "No que diz respeito à segurança, se o usuário deseja impedir que pessoas não autorizadas usem o seu computador, ele deve:",
+    "options": {
+      "a": "fazer periodicamente o backup dos arquivos armazenados.",
+      "b": "usar criptografia para enviar mensagens.",
+      "c": "conferir se arquivos recebidos estão infectados por vírus.",
+      "d": "bloquear a máquina para que o acesso a ela seja feito por meio de nome de usuário e senha pessoais.",
+      "e": "compartilhar senhas apenas com pessoas confiáveis."
+    },
+    "correctAnswer": "d",
+    "comment": "Aluno(a), lembra da política de mesa limpa?"
+  },
+  {
+    "id": 34,
+    "question": "Os vírus do tipo cavalo de Troia, também conhecidos como trojans, podem ser instalados por outros vírus e programas, mas também podem infectar o ambiente por meio de links durante a navegação na Internet ou até mesmo por meio de emails falsos (phishing).",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Mais uma polêmica do CEBRASPE envolvendo TROJAN ao chamá-lo de vírus. O examinador do CEBRASPE considera essa tese correta; o professor aqui e a própria cartilha do Cert.Br, não."
+  },
+  {
+    "id": 35,
+    "question": "Denomina-se backdoor a situação em que um usuário sofre um ataque, seus dados são criptografados, ficam inacessíveis e, então, exige-se desse usuário o pagamento de resgate para o restabelecimento do acesso a seus dados.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Conceito de Ransomware."
+  },
+  {
+    "id": 36,
+    "question": "Caso o usuário tenha recebido um conjunto de arquivos com trojan em seu conteúdo e esses arquivos estejam em uma mídia de armazenamento local em sua estação de trabalho, recomenda-se a utilização de IDS (intrusion detection system) para a realização da limpeza dos arquivos.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "O IDS seria incapaz de agir em mídias de armazenamento. Ele age na barreira da rede, Firewall. Quem seria responsável por essa limpeza é o antivírus."
+  },
+  {
+    "id": 37,
+    "question": "Ransomware é um programa malicioso de computador que se propaga por meio da inserção de cópias de si mesmo em arquivos criptografados.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Quem é capaz de se propagar por meio da inserção de cópias de si mesmo é o Worm."
+  },
+  {
+    "id": 38,
+    "question": "Spam é um tipo de e-mail que contém mensagem indesejada — como, por exemplo, propaganda de uma empresa — e que é enviado para um cliente sem a sua prévia solicitação ou autorização.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Temos aqui um conceito simples sobre um SPAM."
+  },
+  {
+    "id": 39,
+    "question": "O objetivo principal de um ataque DDoS é invadir bases de dados para coletar informações sensíveis; para isso, ele realiza a sobrecarga dos recursos do servidor, por meio do envio de excessiva quantidade de requisições ou por meio da geração de grande tráfego de dados na rede.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "De acordo com o que estudamos, o DDOS tem como objetivo coletar informações sensíveis de uma base de dados? Isso é função do SPYWARE."
+  },
+  {
+    "id": 40,
+    "question": "Os ataques de phishing caracterizam-se pelo envio de mensagens eletrônicas que despertam a atenção de usuários por meio da sugestão de vantagens ou ameaças de prejuízos e também por induzirem os usuários a fornecer dados pessoais e(ou) financeiros.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Conceito de phishing (pescaria) como estudamos acima."
+  },
+  {
+    "id": 41,
+    "question": "Spam é um tipo de email que contém mensagem indesejada – como, por exemplo, propaganda de uma empresa – e que é enviado para um cliente sem a sua prévia solicitação ou autorização.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "A partir do momento que você começa a receber e-mails que não obtiveram a sua prévia autorização, isso se configura como SPAM."
+  },
+  {
+    "id": 42,
+    "question": "A instalação e a execução de um ou mais sistemas antimalware em um computador garantem proteção contra softwares maliciosos, mesmo que o usuário execute frequentemente arquivos recebidos em mensagens e não atualize seus programas e o sistema operacional.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "O examinador não citou quais seriam essas proteções antimalwares, mas adianto que, se for o caso de dois antivírus, jamais faça isso. Um antivírus acaba reconhecendo a base de dados do outro como vírus, e isso pode deixar seu sistema lento e em conflito. Agora, o erro mais fatal do item é afirmar que: mesmo que o usuário execute frequentemente arquivos recebidos em mensagens e não atualize seus programas e o sistema operacional, irá garantir proteção."
+  },
+  {
+    "id": 43,
+    "question": "Nas redes sociais, ocorre a propagação de notícia falsa quando um usuário compartilha livremente conteúdo sem verificar a veracidade ou procedência das informações.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Afirmar que, ao compartilhar livremente um conteúdo em uma rede social, é propagação de notícia falsa é um pouco exagerado por parte do CEBRASPE.<br>Vou reescrever o item:<br>“Nas redes sociais, PODE OCORRER a propagação de notícia falsa quando um usuário compartilha livremente conteúdo sem verificar a veracidade ou a procedência das informações.”"
+  },
+  {
+    "id": 44,
+    "question": "O uso de códigos maliciosos, ou malwares, permite que pessoas mal-intencionadas roubem a identidade de um usuário da Internet para fins criminosos.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Item bem simples e lógico de resolver. Um “malfeitor virtual” pode, por meio do uso de Spywares, por exemplo, coletar dados pessoais do usuário e usá-los para a criação de falsas identidades, ou até mesmo clonar nossas redes sociais."
+  },
+  {
+    "id": 45,
+    "question": "<b>Ao redigir um ofício destinado a uma provedora de Internet, um delegado colocou as seguintes informações a respeito de uma possível captura de dados não autorizada pelo usuário de um sistema.</b><br>URL correta de acesso ao sistema: https://suaconta.com.br/suaconta.html<br>URL apresentada ao acessar o sistema: https://crazyserver.com.uk/suaconta.html<br>O usuário digitava a URL correta de acesso ao sistema no browser, e a página da Web apresentada solicitava o preenchimento dos dados e a inserção de senha do usuário para acesso ao sistema.<br><br>Nesse caso, utilizava-se a estratégia de phishing para obter dados dos usuários.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Observe que foi realizado um Pharming (envenenamento de DNS) no servidor que direcionou o usuário de maneira transparente para a página falsa, e, com isso, ele digitou seus dados, sendo vítima de um PHISHING."
+  },
+  {
+    "id": 46,
+    "question": "<b>Ao redigir um ofício... (mesmo contexto da questão 45)</b><br><br>O browser do computador da vítima provavelmente estava infectado por software malicioso que realizava um envenenamento de cache.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Pharming, como concluímos no item anterior, não infecta o computador do usuário. Pharming é a invasão a um servidor DNS que realiza a alteração do IP de uma página verdadeira para um IP de uma página falsa."
+  },
+  {
+    "id": 47,
+    "question": "Integridade é a característica que garante o acesso à informação somente para quem estiver autorizado.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Quem garante o acesso à informação somente para quem estiver autorizado é a CONFIDENCIALIDADE. INTEGRIDADE está relacionado à não ALTERAÇÃO de uma informação."
+  },
+  {
+    "id": 48,
+    "question": "Spam é uma funcionalidade do SMTP que permite o recebimento de emails de clientes e a sua retransmissão para outro servidor SMTP.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "De acordo com a Cartilha do Cert.BR: “SPAM é o termo usado para se referir aos e-mails não solicitados, que geralmente são enviados para um grande número de pessoas. Quando este tipo de mensagem possui conteúdo exclusivamente comercial também é referenciado como UCE (Unsolicited Commercial E-mail).”"
+  },
+  {
+    "id": 49,
+    "question": "Honeypot é uma técnica pela qual um atacante utiliza um equipamento conectado à rede de computadores para tirar de operação um serviço, um computador ou toda uma rede conectada à Internet.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Honey Pot é uma armadilha para atacantes; é uma ferramenta de defesa. O ataque citado no item é um DOS (negação de serviço) ou DDOS (negação de serviço distribuído)."
+  },
+  {
+    "id": 50,
+    "question": "Esteganografia é uma técnica que consiste em ocultar uma mensagem dentro da outra, enquanto a criptografia é uma técnica que codifica o conteúdo da mensagem.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Parece coisa de filme, mas é exatamente isso. Inserir bits de uma mensagem dentro de uma imagem para conseguir transmitir uma informação sem ela ser interceptada e lida por terceiros."
+  },
+  {
+    "id": 51,
+    "question": "Os antivírus baseados em heurísticas são ferramentas antimalware que visam detectar e remover códigos maliciosos por meio de estruturas, instruções e características desses códigos.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Tenho certeza de que você lembrou de um item parecido que estudamos acima, abordado no concurso da DPF em 2018.<br>Conceito sobre a heurística."
+  },
+  {
+    "id": 52,
+    "question": "As ferramentas antispam coletam endereços de email mediante varreduras em páginas web e banco de dados, com vistas a proteger dados pessoais e financeiros do usuário, impedindo o fornecimento desses dados quando do acesso a páginas falsas.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Ferramentas antispam visam filtrar os e-mails recebidos para evitar que lotem a caixa de entrada do servidor do usuário. O item está relacionado ao SPAMMER, que coleta esses endereços de e-mails de usuários em banco de dados, e, com isso, não visa proteger nada."
+  },
+  {
+    "id": 53,
+    "question": "A vinculação de uma chave privada a uma pessoa em particular é feita pela autoridade certificadora (AC), a qual, assim que verifica a identidade da pessoa, cria um certificado que vincula essa chave à pessoa e que, por segurança, não guarda a chave pública.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "A Autoridade Certificadora é uma entidade responsável por emitir certificados digitais — ela é uma espécie de Cartório Digital. Busca verificar se o titular do certificado possui a chave privada que corresponde à chave pública do certificado."
+  },
+  {
+    "id": 54,
+    "question": "Identificação e autenticação são requisitos de segurança da informação que consistem em identificar usuários do sistema e verificar as suas identidades, como pré-requisito para permitir o acesso desses usuários ao sistema.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Item bem simples: para acessarmos um sistema, utilizamos a identificação e a autenticação."
+  },
+  {
+    "id": 55,
+    "question": "A criptografia provê métodos de disfarçar informações; a criptografia de chave pública é simétrica quando envolve a utilização de duas chaves separadas, mas correlacionadas.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Criptografia de chave pública = ASSIMÉTRICA. Criptografia de chave privada = SIMÉTRICA."
+  },
+  {
+    "id": 56,
+    "question": "A assinatura digital foi desenvolvida especialmente com o objetivo de prover confidencialidade. Para criá-la, basta que o emissor gere um hash da mensagem enviada e cifre esse código hash com sua chave privada.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "A assinatura digital foi desenvolvida especialmente com o objetivo de prover a autenticidade, a integridade e o não repúdio."
+  },
+  {
+    "id": 57,
+    "question": "Um departamento de uma organização mantém o seu próprio ambiente de dados, com unidades de rede não acessíveis a outros setores da empresa. Nesse caso, o princípio crítico de segurança aplicado é o da",
+    "options": {
+      "a": "ação preventiva.",
+      "b": "autenticidade.",
+      "c": "confiabilidade.",
+      "d": "confidencialidade.",
+      "e": "disponibilidade."
+    },
+    "correctAnswer": "d",
+    "comment": "Observe o trecho do enunciado: “não acessíveis a...”"
+  },
+  {
+    "id": 58,
+    "question": "<b>Cerca de 51% das empresas brasileiras disseram ter sido vítimas de um ataque do tipo ransomware no ano passado...</b><br><br>Com base nas NBR ISO/IEC 27001 e 27002, é correto afirmar que, no ataque de ransomware mencionado no texto, estão envolvidos os seguintes princípios da segurança da informação:",
+    "options": {
+      "a": "disponibilidade e confidencialidade.",
+      "b": "integridade e confidencialidade.",
+      "c": "disponibilidade e integridade.",
+      "d": "confidencialidade e autenticidade.",
+      "e": "autenticidade e disponibilidade."
+    },
+    "correctAnswer": "c",
+    "comment": "Os dados ficam indisponíveis e são alterados com a criptografia."
+  },
+  {
+    "id": 59,
+    "question": "<b>Cerca de 51% das empresas brasileiras... (mesmo contexto da questão 58)</b><br><br>Constitui boa prática para o combate ao malware mencionado no texto:",
+    "options": {
+      "a": "o uso de sistema de becapes corporativos, para salvaguarda e posterior recuperação das informações, o qual deve ser utilizado como último recurso em cenários de propagação de ransomwares.",
+      "b": "adotar sistemas de rastreamento de ativos, com o objetivo de identificar e bloquear os emails recebidos com os ransomwares.",
+      "c": "utilizar sistemas de aceleração web para os usuários institucionais, o que evita o download de ransomwares a partir de páginas web.",
+      "d": "atualizar a BIOS (sistema básico de entrada e saída), com o objetivo de corrigir vulnerabilidades dos sistemas operacionais e dificultar a propagação do ransomwares na rede institucional.",
+      "e": "o ajuste de privilégios das contas de usuários comuns, possibilitando acesso às pastas protegidas do sistema operacional e instalação de softwares para permitir a exclusão de ransomwares."
+    },
+    "correctAnswer": "a",
+    "comment": "A melhor solução para se livrar de um ataque de Ransomware: backup."
+  },
+  {
+    "id": 60,
+    "question": "<b>Em um espaço público ABC, um hacker instalou um ponto de acesso gratuito à internet...</b><br><br>Com o objetivo de evitar que um usuário seja vítima de um ataque como o descrito no texto, foram propostas as seguintes ações.<br>I – Conectar-se a redes wi-fi públicas somente quando exigirem senhas para acesso.<br>II – Certificar-se de que as comunicações na Internet sejam criptografadas por meio de protocolos como TLS.<br>III – Usar serviços de VPN para aumentar a segurança de privacidade das comunicações na Internet.<br>IV – Observar e considerar advertências de programas navegadores sobre sítios potencialmente inseguros.<br>São ações preventivas adequadas para o referido objetivo apenas as apresentadas nos itens:",
+    "options": {
+      "a": "I e II.",
+      "b": "I e III.",
+      "c": "II e IV.",
+      "d": "I, III e IV.",
+      "e": "II, III e IV."
+    },
+    "correctAnswer": "e",
+    "comment": "I – Errado. O fato de exigir uma senha na conexão não invalidaria a ação do hacker no ponto de acesso à internet implantado por ele."
+  },
+  {
+    "id": 61,
+    "question": "Os sistemas de detecção de intrusão servem para fornecer avisos de invasão para que a área de segurança possa mitigar os danos ou, ainda, impedir o ataque. A esse respeito, julgue os itens a seguir.<br>I – Honeypots são sistemas planejados para atrair um atacante para uma área diferente, longe dos sistemas críticos.<br>II – A detecção de intrusão permite a coleta de informações sobre as técnicas de intrusão e, portanto, pode contribuir para a melhoria da estrutura de prevenção de intrusão.<br>III – A detecção de intrusão é baseada na premissa de que o comportamento do intruso é diferente do comportamento de um usuário legítimo, podendo assim, ser quantificada.<br>Assinale a opção correta.",
+    "options": {
+      "a": "Apenas o item I está certo.",
+      "b": "Apenas o item II está certo.",
+      "c": "Apenas os itens I e III estão certos.",
+      "d": "Apenas os itens II e III estão certos.",
+      "e": "Todos os itens estão certos."
+    },
+    "correctAnswer": "e",
+    "comment": "Sem itens polêmicos, todos certos."
+  },
+  {
+    "id": 62,
+    "question": "Um vírus do tipo polimórfico é um vírus que se:",
+    "options": {
+      "a": "conecta a arquivos executáveis e se replica quando o programa infectado é executado.",
+      "b": "aloja na memória principal como parte de um programa residente no sistema.",
+      "c": "transforma a cada infecção, o que impossibilita a detecção pela assinatura do vírus.",
+      "d": "espalha quando o sistema é inicializado, por infectar um registro-mestre de inicialização.",
+      "e": "reescreve a cada interação, podendo mudar seu comportamento e aparência, o que aumenta a dificuldade de detecção."
+    },
+    "correctAnswer": "c",
+    "comment": "Poderíamos acertar com o significado da palavra polimórfico = múltiplas formas. Vírus polimórfico, também conhecido como vírus mutante, é capaz de assumir múltiplas formas a cada infecção, com o intuito de burlar o software de antivírus. Ele muda sua assinatura, mantendo suas funcionalidades e alterando apenas o seu padrão de bits (tamanho). A assinatura é uma característica utilizada pelo antivírus para definir sua presença. Pode ser um nome, um comportamento ou o tamanho do vírus."
+  },
+  {
+    "id": 63,
+    "question": "Na criptografia simétrica, uma chave secreta é aplicada a uma mensagem para alterar o conteúdo dessa mensagem; conhecendo essa chave, o remetente e o destinatário poderão criptografar e descriptografar todas as mensagens em que essa chave for utilizada.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "SIMÉTRICA = 1 CHAVE = PRIVADA."
+  },
+  {
+    "id": 64,
+    "question": "Quando se acessa um sítio seguro pelo protocolo HTTPS, o navegador gera um conjunto de chaves criptográficas que é enviado ao servidor por meio de um algoritmo de troca de chaves.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Utilizando TLS ou SSL."
+  },
+  {
+    "id": 65,
+    "question": "Em criptografia, denomina-se integridade a propriedade que garante que apenas o destinatário seja capaz de extrair o conteúdo da mensagem criptografada.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Denomina-se: CONFIDENCIALIDADE."
+  },
+  {
+    "id": 66,
+    "question": "O objetivo da criptografia é transformar informações de forma que se tornem incompreensíveis para pessoas não autorizadas, garantindo-se, assim, a confidencialidade das informações.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Item que corrige o anterior."
+  },
+  {
+    "id": 67,
+    "question": "Os princípios fundamentais da segurança da informação incluem confidencialidade, integridade e disponibilidade. Os níveis de segurança para executar esses princípios em cada organização são os mesmos, considerando-se os objetivos e requisitos de negócio e de segurança.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "b",
+    "comment": "Os níveis podem variar de uma empresa para outra."
+  },
+  {
+    "id": 68,
+    "question": "A segurança da informação nas organizações pode ser alcançada por meio da implementação de um conjunto adequado de controles, incluindo-se políticas, processos, procedimentos, estruturas organizacionais e funções de software e hardware.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Todos os exemplos estão claros e corretos."
+  },
+  {
+    "id": 69,
+    "question": "Um certificado digital validado por uma autoridade certificadora permite associar uma mensagem ao seu remetente, garantindo-se, assim, a autenticidade da comunicação.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Ao se fazer a associação, existirá a comprovação da autenticidade da comunicação."
+  },
+  {
+    "id": 70,
+    "question": "Para proteger a comunicação em uma organização que possui várias redes internas de computadores interligadas entre si e também à Internet contra ações maliciosas no tráfego dos dados, o mecanismo a ser utilizado é o:",
+    "options": {
+      "a": "registro de logs.",
+      "b": "antispam",
+      "c": "firewall",
+      "d": "antispyware",
+      "e": "controlador de domínio."
+    },
+    "correctAnswer": "c",
+    "comment": "Observe o trecho: contra ações maliciosas no tráfego dos dados, o mecanismo a ser utilizado é o..."
+  },
+  {
+    "id": 71,
+    "question": "No acesso a uma página web que contenha o código de um vírus de script, pode ocorrer a execução automática desse vírus, conforme as configurações do navegador.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Não é característica do vírus a execução automática, porém o vírus de script, ao ser implementado em um plugin, pode ser executado automaticamente caso o navegador esteja com o filtro de proteção desativado."
+  },
+  {
+    "id": 72,
+    "question": "Acerca de certificação digital, assinale a opção correta.",
+    "options": {
+      "a": "Normalmente, cada certificado inclui a chave pública referente à chave privada de posse da entidade especificada no certificado.",
+      "b": "Certificado digital comprado não pode ser revogado.",
+      "c": "É função da autoridade certificadora identificar e cadastrar usuários presencialmente e, depois, encaminhar as solicitações de certificados, mantendo registros das operações.",
+      "d": "No Brasil, adota-se o modelo de certificação hierárquica com várias raízes; SERPRO, SERASA e CERTISIGN são exemplos de autoridades certificadoras raiz que credenciam os participantes e auditam os processos.",
+      "e": "A utilização do certificado digital em documentos ainda não dispensa a apresentação física destes documentos no formato impresso em órgãos públicos."
+    },
+    "correctAnswer": "a",
+    "comment": "A chave pública é gerada pela AC para o solicitante, ao passo que a AC assina o certificado com a sua chave privada."
+  },
+  {
+    "id": 73,
+    "question": "Julgue os itens a seguir, acerca de segurança da informação.<br>I – São exemplos de ameaças as contas sem senhas ou configurações erradas em serviços DNS, FTP e SMTP.<br>II – Não repúdio indica que o remetente de uma mensagem não deve ser capaz de negar que enviou a mensagem.<br>III – Vulnerabilidade é a fragilidade de um ativo ou de um grupo de ativos que pode ser explorada.<br>IV – Pessoas não são consideradas ativos de segurança da informação.<br>Estão certos apenas os itens:",
+    "options": {
+      "a": "I e III.",
+      "b": "I e IV.",
+      "c": "II e III.",
+      "d": "I, II e IV.",
+      "e": "II, III e IV."
+    },
+    "correctAnswer": "c",
+    "comment": "I – Errado. Exemplos de vulnerabilidades.<br>IV – Errado. Pessoas, dados e equipamentos são considerados ativos."
+  },
+  {
+    "id": 74,
+    "question": "Mateus tem em seu computador o Windows 10 e um firewall pessoal instalado que funciona corretamente. Nessa situação, embora esteja funcionando corretamente, o firewall não é suficiente para conter vírus e(ou) perdas de arquivos devidas a eventual falta de becape.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Cada ferramenta tem a sua funcionalidade, concorda?!"
+  },
+  {
+    "id": 75,
+    "question": "A infecção de um sistema por códigos maliciosos pode ocorrer por meio da execução de arquivos infectados obtidos de anexos de mensagens eletrônicas, de mídias removíveis, de páginas web comprometidas, de redes sociais ou diretamente de outros equipamentos.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Qualquer meio de transporte de arquivos pode ser utilizado para a propagação de códigos maliciosos."
+  },
+  {
+    "id": 76,
+    "question": "A superexposição de dados pessoais nas redes sociais facilita o furto de identidade ou a criação de identidade falsa com dados da vítima, identidades essas que podem ser usadas para atividades maliciosas tais como a realização de transações financeiras fraudulentas, a disseminação de códigos maliciosos e o envio de mensagens eletrônicas falsas por email ou redes sociais.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Item bem claro e óbvio. Se expomos, de maneira exagerada, estaremos expostos a golpes e falsificação de identidade."
+  },
+  {
+    "id": 77,
+    "question": "Formatos comuns de arquivos, como, por exemplo,.docx ou.xlsx, são utilizados como vetor de infecção por ransomware, um tipo de software malicioso que encripta os dados do usuário e solicita resgate.",
+    "options": {
+      "a": "Certo",
+      "b": "Errado"
+    },
+    "correctAnswer": "a",
+    "comment": "Cuidado, que o examinador não afirmou que o ransomware vem nos arquivos docx e xlsx, apenas os citou como possíveis vetores. Basta criar uma macro em um documento do Word que interliga a um link que possui um ransomware."
+  },
+  {
+    "id": 78,
+    "question": "O computador de um usuário foi infectado por um ransomware, um tipo de malware que",
+    "options": {
+      "a": "torna inacessíveis os dados armazenados no computador, geralmente usando criptografia, e exige pagamento de resgate (via bitcoins) para restabelecer o acesso ao usuário.",
+      "b": "após identificar potenciais computadores alvos, efetua cópias de si mesmo e tenta enviá-las para estes computadores, por e-mail, chat etc.",
+      "c": "monitora e captura informações referentes à navegação ou digitação do usuário, e envia estas informações ao atacante.",
+      "d": "assegura o acesso futuro do atacante ao computador comprometido, permitindo que ele seja acessado remotamente por meio do protocolo Telnet.",
+      "e": "torna o computador um zumbi, sendo controlado remotamente e desferindo automaticamente ataques de negação de serviço a redes e servidores determinados pelo atacante."
+    },
+    "correctAnswer": "a",
+    "comment": "a) Certa. Lembre-se: O pagamento do resgate não é garantia do acesso aos dados.<br>b) Errada. WORM.<br>c) Errada. SPYWARE/KEYLOGGER.<br>d) Errada. BACKDOOR.<br>e) Errada. BOT."
+  },
+  {
+    "id": 79,
+    "question": "Um Estagiário da Sabesp foi convidado a opinar sobre recomendações corretas a serem aplicadas na rede móvel (wireless) da empresa, com destaque ao AP-Access Point. O Estagiário afirmou que:",
+    "options": {
+      "a": "Dois fatores muito importantes devem ser considerados ao definir a topologia da rede wireless: o posicionamento do AP e a obrigatoriedade de manter a rede wireless totalmente conectada à rede interna da Sabesp.",
+      "b": "Como a potência da antena de um AP é sempre pequena, este alcança somente os limites da Sabesp, o que impede o vazamento de sinal e inviabiliza a escuta não autorizada.",
+      "c": "Além do uso de criptografia, é recomendável um posicionamento cuidadoso dos APs, longe do centro do prédio e mais próximos de janelas. Com isso, um atacante externo não consegue ter acesso à rede wireless da Sabesp, mesmo a distâncias curtas.",
+      "d": "Para aumentar a segurança da rede interna da Sabesp, devem-se conectar os APs a um hub e não a um switch. Além disso, deve-se procurar manter a rede wireless conectada diretamente à rede interna devidamente protegida por um firewall.",
+      "e": "Uma boa solução pode ser colocar todos os APs em um segmento de rede próprio e colocar um firewall entre esse segmento e o resto da infraestrutura de rede da Sabesp. Isso possibilita o controle de utilização e ainda provê uma boa possibilidade de integração com Virtual Private Networks-VPNs."
+    },
+    "correctAnswer": "e",
+    "comment": "Imagine uma rede dividida em 2 partes. A primeira parte é privada, apenas para os funcionários da SABESP, e a segunda parte é uma rede aberta ao público para acesso à INTERNET. Entre essas duas redes, há a utilização de um FIREWALL para o controle dos acessos."
+  },
+  {
+    "id": 80,
+    "question": "Um dos procedimentos que mais potencializam as chances de ser vítima de um ataque de phishing é:",
+    "options": {
+      "a": "acessar a conta de e-mail por meio de gerenciadores de e-mail como o Verse e o Notes SmartCloud.",
+      "b": "excluir imediatamente e-mails com links de desconto ditos como imperdíveis durante uma campanha de comércio eletrônico.",
+      "c": "acessar as contas de e-mail e redes sociais por meio de Wi-Fi público.",
+      "d": "fornecer informações de login somente após verificar o nome do site e se ele inicia por “https”.",
+      "e": "abrir arquivos obsoletos, criados em versões de softwares que não possuem mais suporte do fabricante."
+    },
+    "correctAnswer": "c",
+    "comment": "Quando utilizamos uma rede de Wi-Fi pública, corremos o risco de ter os nossos dados interceptados, pois estamos compartilhando com pessoas desconhecidas o acesso à Internet."
+  },
+  {
+    "id": 81,
+    "question": "Considerando as formas de ataque pela internet,",
+    "options": {
+      "a": "e-mail spoofing é uma técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra.",
+      "b": "scan é uma técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada à internet.",
+      "c": "defacement é uma técnica que consiste em trocar a senha, dificultando o acesso novamente ao site ou computador invadido.",
+      "d": "sniffing é uma técnica que consiste em inspecionar os dados trafegados em redes de computadores, por meio do uso de programas específicos chamados de spoofers.",
+      "e": "brute fake é uma técnica que consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim, executar processos e acessar sites, computadores e serviços em nome e com os mesmos privilégios deste usuário."
+    },
+    "correctAnswer": "a",
+    "comment": "Falsificação de e-mail, ou e-mail spoofing, é uma técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra.<br>b) Errada. O ataque correto é o DOS (negação de serviço).<br>c) Errada. Scan é uma técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada à internet.<br>d) Errada. O nome correto é SNIFFER.<br>e) Errada. O nome correto é BRUTE FORCE."
+  },
+  {
+    "id": 82,
+    "question": "Das opções abaixo, o método MENOS aconselhável a ser utilizado como forma de gerenciamento de senhas pessoais é:",
+    "options": {
+      "a": "anotar as contas e senhas em um papel e guardá-lo em um local seguro, como um cofre ou gaveta trancada.",
+      "b": "usar um programa gerenciador de senhas que permite armazenar senhas em um único arquivo acessível por meio de uma chave mestra.",
+      "c": "usar opções como “Lembre-se de mim” e “Continuar conectado” em sites da web.",
+      "d": "gravar suas contas e senhas em um arquivo criptografado no computador e manter um backup deste arquivo em outro computador.",
+      "e": "criar grupos de senhas de complexidade diferente, de acordo com o risco envolvido."
+    },
+    "correctAnswer": "c",
+    "comment": "Uma vez ativada a opção “LEMBRE-SE DE MIM”, o servidor mantém nossos dados gravados para futuro acesso, o que pode ser perigoso em caso de vazamento de dados. A opção “CONTINUAR CONECTADO” se torna perigosa em acessos públicos, como em LAN-HOUSES, pois, se o usuário apenas fechar o navegador, seu login não será encerrado e, caso uma outra pessoa abra o navegador na mesma página, a conta do usuário anterior será carregada."
+  },
+  {
+    "id": 83,
+    "question": "Quando um usuário acessa um site utilizando o protocolo HTTPS e ocorre uma das situações:<br>− um cadeado com um “X” vermelho é apresentado na barra de endereço;<br>− a identificação do protocolo HTTPS é apresentado em vermelho e riscado;<br>− a barra de endereço muda de cor, ficando totalmente vermelha;<br>− um indicativo de erro do certificado é apresentado na barra de endereço;<br>− um recorte colorido com o nome do domínio do site ou da instituição (dona do certificado) é mostrado ao lado da barra de endereço e, ao passar o mouse sobre ele, é informado que uma exceção foi adicionada. Isso indica que:",
+    "options": {
+      "a": "o usuário deveria ter usado o protocolo HTTP e não HTTPS.",
+      "b": "a página do site utiliza os dois protocolos: seguro (HTTP) e não seguro (HTTPS).",
+      "c": "o navegador identificou que o usuário está navegando em modo anônimo.",
+      "d": "o navegador do usuário não reconhece a cadeia de certificação.",
+      "e": "o site possui conexão com EV SSL, que não provê requisitos de segurança como a conexão HTTPS."
+    },
+    "correctAnswer": "d",
+    "comment": "Quando o navegador não reconhece a cadeia de certificação do servidor que está sendo acessado, ele entende que o acesso pode ser nocivo; por isso, notifica o usuário. O ideal é o usuário atualizar a cadeia de certificação do navegador, por meio das opções de segurança do browser."
+  },
+  {
+    "id": 84,
+    "question": "A Sabesp disponibiliza o e-mail canaldedenuncia@sabesp.com.br para que ocorrências de fraudes e transgressões diversas à política de segurança das informações possam ser denunciadas. Considere, hipoteticamente, que uma denúncia enviada descreveu que um certo funcionário estava fazendo ligações internas se passando por alguém da equipe de suporte técnico de TI solicitando determinadas informações para resolver um suposto problema da Sabesp. Conclui-se, corretamente, que a denúncia se configura em um ataque do tipo:",
+    "options": {
+      "a": "Engenharia Social.",
+      "b": "Pharming.",
+      "c": "Advance fee fraud.",
+      "d": "Spyware.",
+      "e": "Negação de Serviço."
+    },
+    "correctAnswer": "a",
+    "comment": "A engenharia social é o poder de persuasão utilizado por uma pessoa para conseguir enganar uma vítima.<br>b) Errada. Pharming é um tipo específico de phishing que envolve a redireção da navegação do usuário para sites falsos, por meio de alterações no serviço de DNS (Domain Name System).<br>c) Errada. A Fraude nigeriana é uma forma de fraude realizada, principalmente, por correio eletrônico, em que o fraudador tenta convencer o fraudado a pagar quantias cada vez maiores em busca de obter um ganho ainda maior no final.<br>d) Errada. Spyware é um programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros.<br>e) Errada. Negação de serviço, ou DoS (Denial of Service), é uma técnica por meio da qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada à Internet."
+  },
+  {
+    "id": 85,
+    "question": "Considere as características de pragas virtuais, abaixo.<br>I – Não se propaga por meio da inclusão de cópias de si mesmo em outros programas ou arquivos, mas sim pela execução direta de suas cópias ou pela exploração automática de vulnerabilidades existentes em programas instalados em computadores.<br>II – É um programa ou parte de um programa de computador, normalmente malicioso, que se propaga inserindo cópias de si mesmo e se tornando parte de outros programas e arquivos.<br>III – É um programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros.<br>Os itens I, II e III descrevem corretamente um:",
+    "options": {
+      "a": "worm − vírus e spyware.",
+      "b": "botnet − trojan e rootkit.",
+      "c": "backdoor − worm e adware.",
+      "d": "vírus − spyware e botnet.",
+      "e": "trojan − vírus e rootkit."
+    },
+    "correctAnswer": "a",
+    "comment": "WORM: não se propaga por meio da inclusão de cópias de si mesmo em outros programas ou arquivos, mas sim pela execução direta de suas cópias ou pela exploração automática de vulnerabilidades existentes em programas instalados em computadores.<br>VÍRUS: é um programa ou parte de um programa de computador, normalmente malicioso, que se propaga inserindo cópias de si mesmo e se tornando parte de outros programas e arquivos.<br>SPYWARE: é um programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros."
+  },
+  {
+    "id": 86,
+    "question": "Um Assistente de TI identificou o malware que atacou o seu computador como sendo do tipo ransomware, pois apresentava como principal característica:",
+    "options": {
+      "a": "o pedido de resgate para liberar o acesso aos arquivos.",
+      "b": "mostrar propagandas continuamente abrindo janelas do navegador web.",
+      "c": "o controle do computador de forma remota.",
+      "d": "a modificação dos arquivos do sistema operacional para anular o seu uso.",
+      "e": "o uso de muitos recursos deixando o computador lento."
+    },
+    "correctAnswer": "a",
+    "comment": "LEMBRE-SE: a melhor ferramenta para se livrar de um RANSOMWARE é a realização de backups periódicos.<br>b) Errada. Mostrar propagandas continuamente abrindo janelas do navegador web = ADWARE.<br>c) Errada. O controle do computador de forma remota = TROJAN.<br>d) Errada. A modificação dos arquivos do sistema operacional para anular o seu uso = VÍRUS.<br>e) Errada. O uso de muitos recursos deixando o computador lento = WORM."
+  },
+  {
+    "id": 87,
+    "question": "Um técnico tentou instalar uma aplicação no seu computador, mas o antivírus o impediu... pensou nas seguintes possibilidades para instalar e executar o software:<br>I – Incluir o software na lista de exclusão do antivírus...<br>II – Mudar o nome do software para um nome amigável...<br>III – Desativar/Pausar o antivírus por um tempo determinado...<br>IV – Colocar o antivírus no modo de verificação apenas de disco rígido...<br>Considerando que o técnico estava utilizando um dos principais antivírus do mercado, permitirá a instalação e execução do software APENAS o que consta em:",
+    "options": {
+      "a": "III.",
+      "b": "I e III.",
+      "c": "I e IV.",
+      "d": "III e IV.",
+      "e": "I e II."
+    },
+    "correctAnswer": "b",
+    "comment": "Mudar o nome do software (II) não impede o bloqueio, pois o antivírus analisa o código, não o nome. Colocar em modo de verificação de disco (IV) não impediria a detecção em tempo real na execução. Portanto, apenas a exclusão (I) e a desativação temporária (III) são eficazes."
+  },
+  {
+    "id": 88,
+    "question": "Um dos efeitos mais nocivos dos Malwares que atacam os computadores é o que faz a captura do que é digitado no teclado do computador. Esse tipo de Malware é conhecido como:",
+    "options": {
+      "a": "Bot.",
+      "b": "Adware.",
+      "c": "Spyware.",
+      "d": "Backdoor.",
+      "e": "Trojan Clicker."
+    },
+    "correctAnswer": "c",
+    "comment": "A questão cobra um KEYLOGGER, um tipo de spyware que captura as teclas digitadas pelo usuário."
+  },
+  {
+    "id": 89,
+    "question": "Um assistente usa um computador onde todos os softwares e seu webmail estão na configuração padrão. Ao receber uma mensagem de e-mail com um arquivo anexado, baixou o arquivo no seu computador, de forma que ele não foi executado nem pelo assistente, nem por qualquer mecanismo automático de execução. Se esse arquivo contiver um vírus,",
+    "options": {
+      "a": "a caixa de entrada do webmail do assistente foi contaminada assim que o e-mail foi recebido.",
+      "b": "o computador do assistente foi contaminado assim que a mensagem de e-mail foi aberta.",
+      "c": "o computador do assistente não foi contaminado porque o arquivo não foi executado.",
+      "d": "o computador do assistente foi contaminado assim que o arquivo foi gravado no disco.",
+      "e": "todos os servidores e computadores por onde o arquivo passou foram infectados."
+    },
+    "correctAnswer": "c",
+    "comment": "Uma regra básica sobre o vírus é que o arquivo contaminado precisa ser executado para a liberação do vírus."
+  },
+  {
+    "id": 90,
+    "question": "Caso uma praga virtual seja muito forte e sua remoção por meio do processo de deleção de arquivos ou programas infectados possa afetar todo o funcionamento do computador, os antivírus devem executar um processo:",
+    "options": {
+      "a": "para isolar completamente o sistema operacional do sistema de arquivos.",
+      "b": "para criptografar o arquivo ou programa infectado inteiro, antes renomeando-o em uma cópia com os caracteres $~ na frente de seu nome.",
+      "c": "que visa manter o sistema operacional suspenso.",
+      "d": "que visa manter o arquivo ou programa infectado em quarentena.",
+      "e": "que se incumbe apenas de renomear o arquivo ou programa infectado com os caracteres $~ na frente de seu nome."
+    },
+    "correctAnswer": "d",
+    "comment": "A quarentena irá manter o arquivo infectado em uma pasta especial do antivírus, que evitará a propagação do vírus até a desenvolvedora lançar a vacina e atualizar o banco de dados do antivírus para a remoção do malware."
+  },
+  {
+    "id": 91,
+    "question": "Vírus e worms são dois tipos de malware que podem ser obtidos por e-mail, em sites da internet, no compartilhamento de arquivos, em redes sociais e mensagens instantâneas, entre outros. Diferentemente dos vírus, os worms:",
+    "options": {
+      "a": "propagam-se enviando cópia de si próprio automaticamente pelas redes.",
+      "b": "propagam-se por meio da inserção de cópia de si mesmo em outros arquivos.",
+      "c": "normalmente alteram e/ou removem arquivos do computador.",
+      "d": "são instalados no computador quando se executa um arquivo infectado.",
+      "e": "normalmente enviam spam e phishing automaticamente a partir do computador."
+    },
+    "correctAnswer": "a",
+    "comment": "a) Certa. Propagam-se enviando cópia de si próprio automaticamente pelas redes  WORM.<br>b) Errada. Propagam-se por meio da inserção de cópia de si mesmo em outros arquivos  VÍRUS.<br>c) Errada. Normalmente alteram e/ou removem arquivos do computador  VÍRUS.<br>d) Errada. São instalados no computador quando se executa um arquivo infectado  VÍRUS.<br>e) Errada. Normalmente enviam spam e phishing automaticamente a partir do computador  VÍRUS."
+  }
+]
